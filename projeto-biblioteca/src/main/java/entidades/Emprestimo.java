@@ -16,7 +16,7 @@ public class Emprestimo {
 
     public LocalDate dataEmprestimo;
 
-    public LocalDate dataEvolucao;
+    public LocalDate dataDevolucao;
 
     @ManyToOne
     public Livro livro;
